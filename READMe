@@ -1,0 +1,19 @@
+Development Steps
+
+
+###  mkdir /c/BASKETBALL
+###  cd /c/BASKETBALL
+### python -m venv virt
+### source virt/Scripts/activate
+### pip freeze   to see what is been installed in the virt env
+
+### SET UP DJANGO ### STEP 1
+# pip install django djangorestframework
+# START PROJECT AND CREATE APP   ===>> django-admin startproject my_basketball_website
+ and python manage.py startapp [name]
+# Added the APP NAME TO SETTINGS
+# ADJUSTED THE MAIN PROJECT URL.PY
+# CREATED A URL.PY FOR THE APP
+# ADD A HOME VIEW
+# CREATE HOME.HTML FILE
+# RUN THE SERVER
